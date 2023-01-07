@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+li{
+    list-style-type: none;
+}
+
+
+/*------------------------------
+            comon css end
+ ---------------------------------- */
+/*------------------------------
+           header part start
+ ---------------------------------- */
+
+ header .banner{
+     background: url(../img/banner/banner2.png)no-repeat center;
+     background-size: cover;
+     height: 500px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+}
+    
+header .banner .text{
+    
+    width: 500px;
+    margin-right: 150px;
+}
+header .banner .text h2{
+    
+    font-size:35px;
+    text-align: right;
+    padding:2px 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    
+}
+
+header .banner .text p{
+    
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-size: 16px;
+    text-align: right;
+    line-height: 25px;
+    padding: 10px 0;
+}
+header .banner .text button{
+
+
+    background-color: #F15B22;
+   padding: 15px 35px;
+   border: none;
+   border-radius:5px;
+  justify-content: flex-end;
+}
+
+
+/*------------------------------
+           header part end
+ ---------------------------------- */
+/*------------------------------
+           my_failures part start
+ ---------------------------------- */
+ main{
+    padding: 0 80px;
+ }
+
+ main .my_failures{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+ }
+
+ main .my_failures .left img{
+     width: 100%;
+     
+}
+    
+main .my_failures .right{
+    
+    margin-left: 80px;
+    width: 400px;
+}
+main .my_failures .right h1{
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+main .my_failures .right p{
+    
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px 0 ;
+    color: black;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+main .my_failures .right h4{
+    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    padding: 10px 0;
+    
+}
+main .my_failures .right h4 img{
+    margin-right: 8px;
+}
+
+
+/*------------------------------
+           my_failures part end
+ ---------------------------------- */
+
+/*------------------------------
+           my_failures part start
+ ---------------------------------- */
+ 
+
+ main .my_plan .title{
+     text-align: center;
+     padding: 80px;
+     
+    }
+    main .my_plan .title h2{
+        color: black;
+        font-weight: 700;
+        font-size: 40px;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+
+ main .my_plan .maine{
+     display: flex;
+     justify-content:space-evenly;
+    }
+    
+    main .my_plan .maine .item h2{
+        font-weight: 700;
+        font-size: 30px;
+        color: black;
+        padding: 10px 0;
+        
+    }
+    
+    main .my_plan .maine .item p{
+
+        font-weight: 500;
+        font-size: 25px;
+        color: #737272;
+    }
+
+ /*------------------------------
+           my_failures part end
+ ---------------------------------- */
+ /*------------------------------
+           my_selfe part start
+ ---------------------------------- */
+   
+ main .my_self .title{
+     text-align: center;
+     padding: 100px 0;
+     width: 600px;
+     margin: 0 auto;
+     
+    }
+    main .my_self .title h2{
+        color: black;
+        font-weight: 600;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    
+    main .my_self .title p{
+        font-size: 16px;
+        line-height: 26px;  
+        color: black;
+
+}
+
+   main .my_self .maine{
+       display: flex;
+       justify-content: space-evenly;
+    }
+    
+    main .my_self .maine .item{
+        width: 250px;
+        padding: 20px 15px;
+        background-color: #ffffff;
+        border-radius: 11px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        
+    }
+    
+    main .my_self .maine .item h2{
+        color: black;
+        font-weight: 700;
+        font-size: 20px;
+        font-family: 'Work Sans', sans-serif;
+        padding: 10px 0;
+    }
+    
+    main .my_self .maine .item p{
+        color: black;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+ /*------------------------------
+           my_selfe part end
+ ---------------------------------- */
+ /*------------------------------
+           positive mindsete part end
+ ---------------------------------- */
+
+
+ main .mindset {
+
+    background: url(../img/watch.png)no-repeat center;
+    background-size: cover;
+    height: 300px;
+    margin: 0 40px;
+    border-radius: 11px;
+    margin-top: 100px;
+    position: relative;
+ }
+    
+ main .mindset .item .overlay {
+     position: absolute;
+     background: linear-gradient(90deg, rgb(201 132 20 / 84%) 29%, rgb(0 212 255 / 30%) 76%);
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     border-radius: 11px;
+    }
+    
+main .mindset .item .overlay .text{
+    margin-top: 100px;    
+    margin-left: 60px;
+}
+main .mindset .item .overlay .text h2{
+    font-weight: 700px;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main .mindset .item .overlay .text button{
+
+    border: none;
+    background-color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: #F15B22;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+ /*------------------------------
+  positive mindsete part end
+ ---------------------------------- */
+ /*------------------------------
+       footer part end
+ ---------------------------------- */
+
+ footer{
+    background-color: rgb(0, 0, 0);
+    padding: 80px 0;
+    margin-top: 100px;
+ }
+ footer .maine{
+     display: flex;
+     justify-content: space-between;
+     padding: 0 120px;
+}
+    
+    footer .maine .left{
+
+        width: 450px;
+    }
+
+    footer .maine .left h2{
+        color: white;
+        font-weight: 700;
+        font-size: 45px;
+        font-family: 'Work Sans', sans-serif;
+        padding: 10px 0;
+        
+    }
+    footer .maine .left p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: white;
+        font-family: 'Work Sans', sans-serif;
+    }
+    footer .maine .left h4{
+        
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+        padding: 15px 0;
+
+    }
+    footer .maine .left h5{
+        
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+    }
+    
+    footer .maine .left img{
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    footer .maine .right{
+     margin-top: 10px;
+    }
+    footer .maine .right h2{
+        color: white;
+    }
+    footer .maine .right input{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        padding: 10px 35px;
+        border-radius: 5px;
+        margin: 15px 0;
+        
+    }
+    
+    footer .maine .right button{
+
+        padding: 15px 40px;
+        background-color: white;
+        color: #F15B22;
+        border: none;
+        border-radius: 11px;
+    }
+ /*------------------------------
+       footer part end
+ ---------------------------------- */
+
+
+
+
+
+
+
